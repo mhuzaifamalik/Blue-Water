@@ -4,7 +4,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { Row, Col } from 'antd';
 import { FaEye, FaRegHeart } from 'react-icons/fa';
 import { HiOutlineShoppingBag } from 'react-icons/hi';
-import img from '../images/products/img-product.png';
+// import img from '../images/products/img-product.png';
 
 gsap.registerPlugin(ScrollTrigger);
 
