@@ -54,12 +54,10 @@ function Footer() {
               <Col xs={24} md={6}>
                 <h3 className="font-semibold mb-4 text-black font-syne">Main Links</h3>
                 <ul className="space-y-2 text-sm">
-                  <li><a href="#" className='font-outfit text-black'>Home</a></li>
-                  <li><a href="#" className='font-outfit text-black'>Shop</a></li>
-                  <li><a href="#" className='font-outfit text-black'>For Men</a></li>
-                  <li><a href="#" className='font-outfit text-black'>For Women</a></li>
-                  <li><a href="#" className='font-outfit text-black'>Collection</a></li>
-                  <li><a href="#" className='font-outfit text-black'>Gift Set</a></li>
+                  <li><a href="/" className='font-outfit text-black'>Home</a></li>
+                  <li><a href="/about" className='font-outfit text-black'>About</a></li>
+                  <li><a href="/Shop" className='font-outfit text-black'>Shop</a></li>
+                  <li><a href="/Contact" className='font-outfit text-black'>Contact</a></li>
                 </ul>
               </Col>
 
@@ -67,11 +65,11 @@ function Footer() {
               <Col xs={24} md={6}>
                 <h3 className="font-semibold mb-4 text-black font-syne">Quick Links</h3>
                 <ul className="space-y-2 text-sm">
-                  <li><a href="#" className='hover:text-white-500 font-outfit text-black'>Terms & Conditions</a></li>
-                  <li><a href="#" className='hover:text-white-500 font-outfit text-black'>Privacy Policy</a></li>
-                  <li><a href="#" className='hover:text-white-500 font-outfit text-black'>Return Policy</a></li>
-                  <li><a href="#" className='hover:text-white-500 font-outfit text-black'>About</a></li>
-                  <li><a href="#" className='hover:text-white-500 font-outfit text-black'>Contact</a></li>
+                  <li><a href="/TermsConditions" className='hover:text-white-500 font-outfit text-black'>Terms & Conditions</a></li>
+                  <li><a href="/PrivacyPolicy" className='hover:text-white-500 font-outfit text-black'>Privacy Policy</a></li>
+                  <li><a href="/RefundPolicy" className='hover:text-white-500 font-outfit text-black'>Return Policy</a></li>
+                  <li><a href="/about" className='hover:text-white-500 font-outfit text-black'>About</a></li>
+                  <li><a href="/Contact" className='hover:text-white-500 font-outfit text-black'>Contact</a></li>
                 </ul>
               </Col>
 
@@ -91,7 +89,7 @@ function Footer() {
           <div className="bg-black text-gray-400 text-sm text-center py-4 border-t border-gray-700 flex flex-row justify-between items-center px-4">
             <p className='font-outfit'>© 2025 Copyright | Blue Water Fragrances | All Rights Reserved</p>
             <p className='font-outfit'>
-              Powered by <span className="text-white font-semibold"><a href="https://designversestudios.com/">Design Verse Studios</a></span>
+              Powered by <span className="text-white font-semibold"><a href="https://designversestudios.com/" target='__blank'>Design Verse Studios</a></span>
             </p>
           </div>
         </footer>

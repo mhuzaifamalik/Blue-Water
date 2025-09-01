@@ -49,3 +49,6 @@
 .catagoire{
 max-width:100% ;
 }
+:where(.css-dev-only-do-not-override-1vjf2v5).ant-modal .ant-modal-content{
+  background-color: #000  !important;
+}
