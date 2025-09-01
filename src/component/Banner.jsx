@@ -3,8 +3,10 @@ import { gsap } from 'gsap';
 import Img1 from '../images/products-banner.png';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+// import { Row, Col } from 'antd';
+import Title from 'antd/es/skeleton/Title';
 
-function Banner() {
+function Banner({Title,secttile, dec1,dec2,img}) {
   const title1Ref = useRef(null);
   const blueWaterRef = useRef(null); // Separate ref for Blue Water
   const fragrancesRef = useRef(null); // Separate ref for Fragrances
@@ -94,20 +96,20 @@ function Banner() {
           ref={blueWaterRef}
           className=" lose font-syne text-black font-bold text-9xl "
         >
-          Blue Water
+       {Title}
         </h2>
         <h2
           ref={fragrancesRef}
           className="outlined-text font-syne text-black font-bold text-9xl leading-tight"
         >
-          Fragrances
+      {secttile}
         </h2>
       </div>
 
       <img
         ref={imageRef}
         className="absolute bottom-0 left-1/1 transform -translate-x-1/2  ;"
-        src={Img1}
+        src={img}
         alt="Fragrance"
       />
       <div className="main-text relative z-[1]">
@@ -115,7 +117,7 @@ function Banner() {
           ref={title1Ref}
           className="main-texture  text-white font-light font-outfit text-1xl text-start mt-4 absolute bottom-0 top-[0px] right-[50px] transform -translate-x-1/2 w-[400px]">
           <p>
-            Awaken Your Senses with Every Spritz
+            {dec1}
           </p>
         </div>
         <div
@@ -124,7 +126,7 @@ function Banner() {
             ref={descRef}
             className="text-base font-light leading-relaxed"
           >
-            Dive into a world of timeless elegance and fresh sophistication. Discover our signature scents crafted to leave a lasting impression.
+           {dec2}
           </p>
           <button
             ref={buttonRef}

@@ -69,3 +69,20 @@ h2.lose.font-syne.text-black.font-bold.text-9xl {
     font-weight: 800!important;
     border-radius: 42px!important;
 }
+nav.absolute.flex.justify-between.items-center.py-4.pt-\[30px\].w-full.max-w-7xl.mx-auto.gap-\[115px\] {
+
+    position: absolute;
+    width: 100%;
+    right: 0;
+    left: 0;
+}
+:where(.css-dev-only-do-not-override-1vjf2v5).ant-btn-variant-solid{
+    background: none!important;
+    box-shadow: none!important;
+    color: #000!important;
+    padding: 0;
+    font-size: 25px;
+}
+.ant-modal-content {
+    padding: 0 !important;
+}
